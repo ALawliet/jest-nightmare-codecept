@@ -1,34 +1,33 @@
-# Jest with Nightmare
+# Jest + Nightmare + Codecept
 
-[![CircleCI](https://circleci.com/gh/vigetlabs/jest-with-nightmare.svg?style=svg)](https://circleci.com/gh/vigetlabs/jest-with-nightmare)
+[![CircleCI](https://circleci.com/gh/ALawliet/jest-nightmare-codecept.svg?style=svg)](https://circleci.com/gh/ALawliet/jest-nightmare-codecept)
 
 ## Setup
 
 ```
-npm install
-```
-
-This project also includes a `yarn.lock` file. Feel free to use that instead:
-
-```
-brew install yarn
-yarn install
+yarn
 ```
 
 ## Run unit tests
 
 ```
-npm test
+yarn test
 ```
 
-## Run acceptance tests
+## Run Nightmare acceptance tests
 
 ```
-npm test:acceptance
+yarn test:acceptance
+```
+
+## Run Codecept acceptance tests
+
+```
+yarn test:codecept
 ```
 
 ## Run all tests
 
 ```
-npm test:all
+yarn test:ci
 ```

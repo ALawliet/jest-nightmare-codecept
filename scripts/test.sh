@@ -13,7 +13,7 @@ php -S localhost:3001 &
 APP_TEST_PID=$(echo $!)
 
 # Execute tests
-PORT=3001 CI=true npm run test:all
+PORT=3001 npm run test:ci
 
 # Exit the build directory
 popd
